@@ -7,11 +7,6 @@ public class TestInputTest extends Test {
 
     public static void main(String[] args) {
 
-
-        // TODO 你的解题思路的描述
-
-
-
         long id = System.currentTimeMillis();
         int number = 33;
         TestPhase testPhase = TestPhase.EXPECT;
