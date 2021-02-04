@@ -51,9 +51,4 @@ public class TestMuti extends Test {
         this.explainUrl = explainUrl;
     }
 
-    @Override
-    public String toString() {
-        return JSON.toJSONString(this);
-    }
-
 }

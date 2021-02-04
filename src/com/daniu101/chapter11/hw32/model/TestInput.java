@@ -37,9 +37,4 @@ public class TestInput extends Test{
         this.explainVideoUrl = explainVideoUrl;
     }
 
-    @Override
-    public String toString() {
-        return JSON.toJSONString(this);
-    }
-
 }

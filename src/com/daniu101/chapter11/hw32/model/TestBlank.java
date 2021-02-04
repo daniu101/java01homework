@@ -26,9 +26,4 @@ public class TestBlank extends Test {
         this.blank = blank;
     }
 
-    @Override
-    public String toString() {
-        return JSON.toJSONString(this);
-    }
-
 }

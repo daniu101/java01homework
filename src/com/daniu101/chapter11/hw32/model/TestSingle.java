@@ -39,10 +39,4 @@ private String[] options = new String[5];
 
     }
 
-    // 检查重写是否正确
-    @Override
-    public String toString() {
-        return JSON.toJSONString(this);
-    }
-
 }

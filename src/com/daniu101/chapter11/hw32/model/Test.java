@@ -1,5 +1,7 @@
 package com.daniu101.chapter11.hw32.model;
 
+import com.alibaba.fastjson.JSON;
+
 // 所有题型的父类
 public class Test {
 
@@ -64,5 +66,10 @@ id
 
     public void setExplainWord(String explainWord) {
         this.explainWord = explainWord;
+    }
+
+    @Override
+    public String toString() {
+        return JSON.toJSONString(this);
     }
 }
